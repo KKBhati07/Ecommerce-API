@@ -12,7 +12,7 @@ Make sure you have the following software installed on your local system:
 ## Installation
 
 1. Clone the repository to your local machine:
-- git clone ------------------------
+- git clone https://github.com/KKBhati07/Ecommerce-API.git
 
 2. Move to the project directory
 
