@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "This is an eCommerce API built using Node.js, Express, and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kanishk Bhati",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.4"
+  }
+}
