@@ -2,7 +2,10 @@
 const mongoose=require("mongoose");
 
 //creating database
-mongoose.connect("mongodb://127.0.0.1:/ecommerce_database");
+const mongoURI=process.env.MONGO_URI || "mongodb://127.0.0.1:/ecommerce_database"
+
+
+mongoose.connect(mongoURI);
 const db=mongoose.connection;
 db.on("error",console.error.bind(console,"Error connecting to DB"));
 db.once("open",()=>{
